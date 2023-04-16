@@ -1,0 +1,96 @@
+.jejuArticle { position:relative; } 
+.jejuArticle .slide { display: flex; position:relative; width:100%; height:500px; } 
+.jejuArticle .slide.slide1 { background: url(./img/main_img1.jpg) no-repeat center; background-size: cover; } 
+.jejuArticle .slide.slide2 { background: url(./img/main_img2.jpg) no-repeat center; background-size: cover; } 
+.jejuArticle .slide.slide3 { background: url(./img/main_img3.jpg) no-repeat center; background-size: cover; } 
+.jejuArticle .slide.slide4 { background: url(./img/main_img4.jpg) no-repeat center; background-size: cover; } 
+
+.jeju_insert { width:100%; padding:100px 0 20px; text-align: center; } 
+.jeju_insert_center { width:1300px; margin: 0 auto; } 
+.jeju_insert h2 { padding:0 0 30px; font-size:45px; } 
+.jeju_insert ul.insert_link { display: flex; justify-content: center; background: #4567ad; margin: 0px 0 18px; } 
+.jeju_insert ul.insert_link a { display: block;font-size:23px; color:#fff; flex:1; line-height: 50px; cursor: pointer; } 
+.jeju_insert ul.insert_link a:hover {  color:skyblue; transition:all 0.1s } 
+
+.Jeju_link { margin:20px 0 30px; border-bottom:2px solid #000; } 
+.insert_link.pageIn { display: block; position: absolute; top: 10px; width: 90%; margin: 0 auto; background: #4567ad; text-align: center; } 
+.insert_link.pageIn a { display: inline-block; width: 20%; max-width: 140px; font-size:23px; height: 50px; color: #fff; line-height: 50px; text-align: center; } 
+.insert_link.pageIn a:hover { color:skyblue; transition:all 0.1s}
+
+
+
+.jeju_MAP { position: relative; width: 100%; height: 470px; margin-bottom: 40px; } 
+.jeju_MAP .Map_left { float:left; width:70%; } 
+.jeju_MAP .jejuSection { float:right; width:30%; } 
+
+.jeju_img { position:relative; width:894px; height:500px; background: url(./img/ico_map_jeju.jpg)no-repeat center; background-size: cover; } 
+.jeju_MAP i { position: absolute; width: 72px; height: 73px; font-size: 23px; border-radius: 100%; background: #fff; line-height: 73px; cursor: pointer; } 
+.jeju_img i.active { color:#fff; background-color:skyblue; } 
+.jeju_img i.jeju_jungmoon { top: 65%; left: 20%; } 
+.jeju_img i.jeju_seoguipo { top: 65%; left: 50%; } 
+.jeju_img i.jeju_aewoul { top: 26%; left: 20%; } 
+.jeju_img i.jeju_jejusi { top: 10%; left: 45%; } 
+.jeju_img i.jeju_sungsan { top: 35%; left: 75%; } 
+.jeju_img i:hover { color:#fff; background-color:skyblue; } 
+
+.jungmoon,
+.seoguipo,
+.aewoul,
+.jejusi,
+.sungsan { display: none; } 
+
+
+.jejuSection > div ul li { width:100%; height:166px; background-size: cover !important; background-repeat: no-repeat !important; background-position: center !important; } 
+.jungmoon.active { display: block; } 
+.jungmoon.active ul li:nth-child(1) { background: url(../Gangwon/img/jungmoon1.jpg) } 
+.jungmoon.active ul li:nth-child(2) { background: url(../Gangwon/img/jungmoon2.jpg) } 
+.jungmoon.active ul li:nth-child(3) { background: url(../Gangwon/img/jungmoon3.jpg) } 
+.seoguipo.active { display: block; } 
+.seoguipo.active ul li:nth-child(1) { background: url(../Gangwon/img/seoguipo1.jpg) } 
+.seoguipo.active ul li:nth-child(2) { background: url(../Gangwon/img/seoguipo2.jpg) } 
+.seoguipo.active ul li:nth-child(3) { background: url(../Gangwon/img/seoguipo3.jpg) } 
+
+.aewoul.active { display: block; } 
+.aewoul.active ul li:nth-child(1) { background: url(../Gangwon/img/aewoul1.jpg) } 
+.aewoul.active ul li:nth-child(2) { background: url(../Gangwon/img/aewoul2.jpg) } 
+.aewoul.active ul li:nth-child(3) { background: url(../Gangwon/img/aewoul3.jpg) } 
+
+.jejusi.active { display: block; } 
+.jejusi.active ul li:nth-child(1) { background: url(../Gangwon/img/jejusi1.jpg) } 
+.jejusi.active ul li:nth-child(2) { background: url(../Gangwon/img/jejusi2.jpg) } 
+.jejusi.active ul li:nth-child(3) { background: url(../Gangwon/img/jejusi3.JPG) } 
+
+.sungsan.active { display: block; } 
+.sungsan.active ul li:nth-child(1) { background: url(../Gangwon/img/sungsan1.JPG) } 
+.sungsan.active ul li:nth-child(2) { background: url(../Gangwon/img/sungsan2.JPG) } 
+.sungsan.active ul li:nth-child(3) { background: url(../Gangwon/img/sungsan3.jpg) } 
+
+.bannerUl li div.bannerImg { position:relative; height:100%; overflow:hidden; } 
+
+
+.clickActive { padding:50px 0 0; } 
+.clickActive h2 { padding:0 0 50px; font-size: 30px; text-align: center } 
+.clickActive ul { display:flex; width:70%; margin:0 auto; justify-content: center; text-align: center; } 
+.clickActive ul li { border:1px solid #bbb; flex:1; line-height: 50px; cursor: pointer; } 
+.clickActiveLi { background-color: none; font-size:20px; } 
+.clickActiveLi.active { background-color: #ededed; border-bottom:none } 
+.section1 { display: flex; width:100%; height:420px; background-color: #ededed; } 
+.section1.active { display: none; } 
+
+.article22 { position:static; width:100%; height:241px; margin:0; background-color: #ededed; } 
+.article22 .slide-group { position:relative; height:511px; padding:50px 0 0; } 
+.article22 .slide { width:270px; height:241px; background-repeat:no-repeat; background-position: center; box-sizing: border-box; } 
+.article22 .slide1 { background-image:url(../Gangwon/img/sungsan3.jpg) } 
+.article22 .slide2 { background-image:url(../Gangwon/img/sungsan2.JPG) } 
+.article22 .slide3 { background-image:url(../Gangwon/img/sungsan1.JPG) } 
+.article22 .slide4 { background-image:url(../Gangwon/img/jejusi1.jpg) } 
+.article22 .slide5 { background-image:url(../Gangwon/img/jejusi2.jpg) } 
+.article22 .slide6 { background-image:url(../Gangwon/img/jejusi3.JPG) } 
+.article22 .slide7 { background-image:url(../Gangwon/img/aewoul1.jpg) } 
+.article22 .slide8 { background-image:url(../Gangwon/img/aewoul2.jpg) } 
+.article22 .slide9 { background-image:url(../Gangwon/img/aewoul3.jpg) } 
+.article22 .slide10 { background-image:url(../Gangwon/img/seoguipo1.jpg) } 
+.article22 .slide11 { background-image:url(../Gangwon/img/seoguipo2.jpg) } 
+.article22 .slide12 { background-image:url(../Gangwon/img/seoguipo3.jpg) } 
+
+.swiper-pagination { position: absolute; z-index: 10; text-align: center; transition: .3s opacity; transform: translate3d(0,0,0); transform: translateY(9px); } 
