@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'neon';
+  src: url("fonts/react_font.ttf") format("truetype");
+  }
+* {
+  font-family: "neon";
+}
+body {
+  margin: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
