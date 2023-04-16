@@ -1,0 +1,138 @@
+
+.Gyuk { width:90%; height:100%; padding:51px 0 20px; margin:0 auto; overflow: hidden; } 
+.Gyuk h1 { display: inline-block; padding:0 0 20px; font-size:40px; font-weight:bold; } 
+.Gyuk h1 small { font-size:20px; color:blue; } 
+.GW_article1 { position:fixed; top:230px; width:90%; z-index: -1; } 
+
+.art_left { width:20%; } 
+.art_left .text_input { padding:10px 0; } 
+.art_left .text_input input { display: block; width:100%; padding:0 10px; margin:0 0 10px; } 
+.art_left ul li { padding:20px 0; font-size:15px; border-bottom:1px solid #ccc; } 
+.art_left ul li span { float:right; } 
+.art_main { overflow: hidden; } 
+.art_main .art_main_category { overflow: hidden; border-bottom:1px solid #ccc; padding:0 0 16px; } 
+.art_main .art_main_category ul { float:right; } 
+.art_main .art_main_category ul li { display: inline-block; position:relative; padding:0 20px; cursor: pointer; font-size:20px; } 
+.art_main .art_main_category ul li:hover { color:#bbb; } 
+.art_main .art_main_category ul li ~ li::before { content: ""; position:absolute; top:5px; left:0; width:1px; height:10px; background-color: #ccc; } 
+.category { height:60%; min-height:600px; padding:20px 0; border-bottom: 1px solid #ccc } 
+.category li { position:relative; height:100%; padding:0 0 30px; overflow: hidden; } 
+.category li .item_img > div { float: left; width: 100%; height: 250px; max-width: 400px; background-size: cover; background-repeat: no-repeat; background-position: center; } 
+.category li .category_img.gangwon1 { background: url(./img/1.png); } 
+.category li .category_img3.gangwon3 { background: url(./img/3.jpg); } 
+.category li .category_img4.gangwon4 { background: url(./img/4.png); } 
+.category li .category_img5.gangwon5 { background: url(./img/5.jpg); } 
+.category li .category_img6.gangwon6 { background: url(./img/6.jpg); } 
+.category li .category_img7.gangwon7 { background: url(./img/7.png); } 
+.category li .category_img8.gangwon8 { background: url(./img/8.jpg); } 
+.category li .category_img9.gangwon9 { background: url(./img/9.jpg); } 
+.category li .category_img10.gangwon10 { background: url(./img/10.png); } 
+.category li .category_img11.gangwon11 { background: url(./img/11.png); } 
+
+.category li .category_img.jejusi1 { background: url(https://dimgcdn.ybtour.co.kr/TN/6a/6a35b9b02ce6b1f97858d8f7573bac9b.tn.410x280.jpg) } 
+.category li .category_img2.jejusi2 { background: url(https://dimgcdn.ybtour.co.kr/TN/e7/e744d7dcf6125d03d3ea04f89c0ff64c.tn.410x280.jpg) } 
+.category li .category_img3.jejusi3 { background: url(https://dimgcdn.ybtour.co.kr/TN/eb/eb48f7166289b5af7acd1d3f7a7396de.tn.410x280.JPG) } 
+.category li .category_img4.jejusi4 { background: url(https://dimgcdn.ybtour.co.kr/TN/dc/dc2d1fbf48b7887f676d6dedf701aae1.tn.410x280.jpg) } 
+.category li .category_img5.jejusi5 { background: url(https://dimgcdn.ybtour.co.kr/TN/49/49e7828f3299079a16f7392f7f7b4d1a.tn.410x280.jpg) } 
+.category li .category_img6.jejusi6 { background: url(https://dimgcdn.ybtour.co.kr/TN/a4/a4416baefcd718a195ef14d0ab743607.tn.410x280.jpg) } 
+.category li .category_img7.jejusi7 { background: url(https://dimgcdn.ybtour.co.kr/TN/4b/4bff51440380f2c49d92e750920ed8a9.tn.410x280.jpg) } 
+.category li .category_img8.jejusi8 { background: url(https://dimgcdn.ybtour.co.kr/TN/fd/fd10bb9b1364fe40b9344931047e5bb2.tn.410x280.jpg) } 
+.category li .category_img9.jejusi9 { background: url(https://dimgcdn.ybtour.co.kr/TN/d2/d20782e9c9bdcb1ffa5942e2fa6d1977.tn.410x280.JPG) } 
+.category li .category_img10.jejusi10 { background: url(https://dimgcdn.ybtour.co.kr/TN/9c/9c972df78410f190c1aba564a8659a4e.tn.410x280.jpg) } 
+
+.category li .category_img.busan1 { background: url(./img/busan1.jpg); } 
+.category li .category_img2.busan2 { background: url(./img/busan2.png); } 
+.category li .category_img3.busan3 { background: url(./img/busan3.jpg); } 
+.category li .category_img4.busan4 { background: url(./img/busan4.jpg); } 
+.category li .category_img5.busan5 { background: url(./img/busan5.png); } 
+.category li .category_img6.busan6 { background: url(./img/busan6.jpg); } 
+.category li .category_img7.busan7 { background: url(./img/busan7.jpg); } 
+.category li .category_img8.busan8 { background: url(./img/busan8.jpg); } 
+.category li .category_img9.busan9 { background: url(./img/busan9.jpg); } 
+
+.category li .category_img.seoul1 { background: url(./img/seoul1.jpg) } 
+.category li .category_img2.seoul2 { background: url(./img/seoul2.png) } 
+.category li .category_img3.seoul3 { background: url(./img/seoul3.jpg) } 
+
+.category li .category_img.jeonra1 { background: url(./img/jeonra1.jpg); } 
+.category li .category_img2.jeonra2 { background: url(./img/jeonra2.jpg); } 
+.category li .category_img3.jeonra3 { background: url(./img/jeonra3.jpg); } 
+.category li .category_img4.jeonra4 { background: url(./img/jeonra4.jpg); } 
+.category li .category_img5.jeonra5 { background: url(./img/jeonra5.png); } 
+.category li .category_img6.jeonra6 { background: url(./img/jeonra6.jpg); } 
+.category li .category_img7.jeonra7 { background: url(./img/jeonra7.png); } 
+.category li .category_img8.jeonra8 { background: url(./img/jeonra8.jpg); } 
+.category li .category_img9.jeonra9 { background: url(./img/jeonra9.jpg); } 
+.category li .category_img10.jeonra10 { background: url(./img/jeonra10.jpg); } 
+.category li .category_img11.jeonra11 { background: url(./img/jeonra11.jpg); } 
+
+.category li .category_img.choongchung1 { background: url(./img/choongchung1.png); } 
+.category li .category_img2.choongchung2 { background: url(./img/choongchung2.png); } 
+.category li .category_img3.choongchung3 { background: url(./img/choongchung3.jpg); } 
+.category li .category_img4.choongchung4 { background: url(./img/choongchung4.jpg); } 
+.category li .category_img5.choongchung5 { background: url(./img/choongchung5.jpg); } 
+
+.category li .category_img.sum1 { background: url(./img/sum1.jpg); } 
+.category li .category_img2.sum2 { background: url(./img/sum2.JPG); } 
+.category li .category_img3.sum3 { background: url(./img/sum3.jpg); } 
+.category li .category_img4.sum4 { background: url(./img/sum4.jpg); } 
+.category li .category_img5.sum5 { background: url(./img/sum5.JPG); } 
+.category li .category_img6.sum6 { background: url(./img/sum6.jpg); } 
+.category li .category_img7.sum7 { background: url(./img/sum7.jpg); } 
+.category li .category_img8.sum8 { background: url(./img/sum8.jpg); } 
+.category li .category_img9.sum9 { background: url(./img/sum9.JPG); } 
+
+.category li .category_img.jungmoon1 { background: url(https://dimgcdn.ybtour.co.kr/TN/76/762909a4656776177d929baa0f9d8632.tn.410x280.jpg); } 
+.category li .category_img2.jungmoon2 { background: url(https://dimgcdn.ybtour.co.kr/TN/06/06a4ee6d5a37eef2d77f87b2d15ddd55.tn.410x280.jpg); } 
+.category li .category_img3.jungmoon3 { background: url(https://dimgcdn.ybtour.co.kr/TN/98/98a43badba683ff02de1c8d012466962.tn.410x280.jpg); } 
+.category li .category_img4.jungmoon4 { background: url(https://dimgcdn.ybtour.co.kr/TN/63/637d05b27da1bd97fc910777cb2b63f5.tn.410x280.jpg); } 
+.category li .category_img5.jungmoon5 { background: url(https://dimgcdn.ybtour.co.kr/TN/f7/f7ffe2f3200ad0f3fab7db9ad1645408.tn.410x280.jpg); } 
+
+.category li .category_img.seoguipo1 { background: url(https://dimgcdn.ybtour.co.kr/TN/2b/2b8263224135a7cbb2da9e1e368c9631.tn.410x280.jpg); } 
+.category li .category_img2.seoguipo2 { background: url(https://dimgcdn.ybtour.co.kr/TN/27/271380b653a4ff7e7634fe63f4bdeb78.tn.410x280.jpg); } 
+.category li .category_img3.seoguipo3 { background: url(https://dimgcdn.ybtour.co.kr/TN/e7/e75f755e7194a213a879502a0016403c.tn.410x280.jpg); } 
+.category li .category_img4.seoguipo4 { background: url(https://dimgcdn.ybtour.co.kr/TN/ae/ae87eb11711bddac6c9a28af01f45b77.tn.410x280.jpg); } 
+.category li .category_img5.seoguipo5 { background: url(https://dimgcdn.ybtour.co.kr/TN/49/49e7828f3299079a16f7392f7f7b4d1a.tn.410x280.jpg); } 
+.category li .category_img6.seoguipo6 { background: url(https://dimgcdn.ybtour.co.kr/TN/eb/eb48f7166289b5af7acd1d3f7a7396de.tn.410x280.JPG); } 
+
+.category li .category_img.aewoul1 { background: url(https://dimgcdn.ybtour.co.kr/TN/4b/4b4797a07e0a61ee670e3a1f8ea433f2.tn.410x280.jpg); } 
+.category li .category_img2.aewoul2 { background: url(https://dimgcdn.ybtour.co.kr/TN/ae/aeb6b5e6562ae9657fcc8743a43ebc5c.tn.410x280.jpg); } 
+.category li .category_img3.aewoul3 { background: url(https://dimgcdn.ybtour.co.kr/TN/4b/4bff51440380f2c49d92e750920ed8a9.tn.410x280.jpg); } 
+
+.category li .category_img.sungsan1 { background: url(https://dimgcdn.ybtour.co.kr/TN/e1/e1220da655aaa94f7cd7a8da081f9e1d.tn.410x280.JPG); } 
+.category li .category_img2.sungsan2 { background: url(https://dimgcdn.ybtour.co.kr/TN/7a/7ae456e4978d8615cb20dd3a60c446d1.tn.410x280.JPG); } 
+.category li .category_img3.sungsan3 { background: url(https://dimgcdn.ybtour.co.kr/TN/27/271380b653a4ff7e7634fe63f4bdeb78.tn.410x280.jpg); } 
+
+.category li .category_text { padding:0 0 0 50px } 
+.category li .category_text .category_span .category_span_L 
+.category li .category_text .category_span .category_span_L span { display: inline-block; width:70px; height:25px; margin:0 10px 0 0; font-size:11px; border:1px solid #ccc; line-height: 25px; text-align: center } 
+.category_span_left { color: #fff; font-size:13px; background: #000; margin-right: 10px; } 
+.category_span_right { color: #fff; font-size:13px; background:#e67f4c; } 
+.category h2 { padding:20px 0; font-size:25px; } 
+.text_p { display: flex; } 
+.text_p p { width: 300px; flex: 1; font-size:20px;  } 
+.text_p_1 { position: relative; } 
+.text_p_bottom { padding:20px 0; font-size:21px; } 
+.bottom_bus { padding:0 0 0 15px; color:darkgrey; } 
+.travelproduct { display: flex; padding: 30px 0 0 20px; flex-direction: column; } 
+.text_p_right { float:right; text-align: end; transform: translateY(-10px); } 
+.travelPrice { font-size:30px; font-weight: bold; } 
+.basket_btn { position: absolute; font-size:20px; right: 8px; bottom: 49px; width: 150px; height: 50px; } 
+.basket_btn:hover { background:#ededed; color:#000; } 
+.SectionProduct .basket_btn { position: static; margin:10px 0 0; border-radius: 10px; font-size:16px; } 
+
+
+/* 장바구니 애니메이션 */
+.page-wrapper .addbtn.sendtocart .cart-item { display: block; animation: xAxis 1s forwards cubic-bezier(1, 0.44, 0.84, 0.165); } 
+.page-wrapper .addbtn.sendtocart .cart-item:before { animation: yAxis 1s alternate forwards cubic-bezier(0.165, 0.84, 0.44, 1); } 
+.cart.shake { animation: shakeCart 0.4s ease-in-out forwards; } 
+
+@keyframes xAxis { 100% { transform: translateX(calc(50vw - 105p x)); } 
+ }
+@keyframes yAxis { 100% { transform: translateY(calc(-50vh + 75px)); } 
+ }
+@keyframes shakeCart { 25% { transform: translateX(6px); } 
+ 50% { transform: translateX(-4px); } 
+ 75% { transform: translateX(2px); } 
+ 100% { transform: translateX(0); } 
+ }

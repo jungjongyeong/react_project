@@ -1,0 +1,47 @@
+
+.quaraBox {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border:1px solid #6392e3;
+    background-color: #6392e3;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.quaraBox:hover {
+    border: 2px solid #6392e3;
+}
+/* 박스에 마우스 올려졋을때 효과 */
+
+
+.quaraBox_info {
+    display: flex;
+    align-items: center;
+}
+
+/*윗부분 info 에 나열 방식 */
+
+.quaraBox_info > h5 {
+    color: #6392e3;
+    font-weight: 300;
+    margin-left: 10px;
+}
+
+/* 아바타옆에 글쓴이에 대한 정보 */
+
+.quaraBox_quora {
+    display:flex;
+    margin-top: 8px;
+}
+
+/*밑에 부분 보여지는거 설정*/
+.quaraBox_quora > p {
+    color: black;
+    font-weight: bold;
+    font-size: large;
+    color:#fff
+}
+
+/* 박스 안에 글짜 색 굵기 크기*/

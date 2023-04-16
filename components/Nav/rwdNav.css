@@ -1,0 +1,31 @@
+@charset "utf-8"; @media screen and (max-width:1540px){
+ .QnA { position: absolute; right:240px; font-size:16px; } 
+#nav .userLogin { position: absolute; right:101px; } 
+#nav .Logout { width:120px; } 
+#nav .userLogin span { display: inline-block; transform: translateY(4px); } 
+ .depth1 { display: none; } 
+ .cd-nav-trigger { display:block; right:2% } 
+ #header .cd.active { display: block; position: fixed; width: 100%; height:auto } 
+ .cdLi.active { display: none; } 
+ #nav .navUl.scroll { transform: translateY(-4px); display: none; } 
+ .Search_Area { position:absolute; top:20px; right:356px; } 
+ #nav .navUl { z-index: -1; } 
+ }
+ @media screen and (max-width:600px){
+ .QnA { position: absolute; right:93px; font-size:14px; } 
+ .QnA i span { display: none; } 
+ #nav .navUl.scroll { transform: translateY(-4px); display: none; } 
+
+#nav .userLogin { position: absolute; right:47px; top:25px; width:50px; } 
+#nav .Login { display: block; width:50px; height:50px; color:#000; font-size:16px; text-align: center; cursor: pointer; } 
+#nav .Login img { padding:0 10px 0 0; } 
+#nav .Logout { top:22px !important; } 
+#nav .Logout img { width: 30px; height: 30px; border-radius: 50%; } 
+#nav .userLogin span { color:#000; font-size:13px; transform: translateY(4px); display: none; } 
+.Search_Area { position:absolute; top: 20px; right: 140px; } 
+.searchInput { display: block; width: 100px; height: 40px; font-size: 16px; border: 1px solid #000; border-radius: 20px; background: #fff; text-indent: 15px; max-width: 175px; } 
+.SearchBtn { position: absolute; top: 9px; right: 16px; font-size: 20px; border: none; } 
+ }
+ @media screen and (min-width:1540px){
+ #nav .navUl.active { display: block; } 
+ }
