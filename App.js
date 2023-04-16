@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import React, { useEffect, useState } from "react";
-import Rout from "./Rout";
+import Rout from "./components/Rout";
 import "./App.css";
 import Nav from "./components/Nav/Nav";
 import Footer from "./components/Section/Footer";
