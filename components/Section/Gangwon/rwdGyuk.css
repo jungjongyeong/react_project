@@ -1,0 +1,49 @@
+@charset "utf-8"; @media screen and (max-width:684px){
+ .jeju_MAP { position: relative; left: 50%; width: 100%; height: 161px !important; margin-bottom: 40px; /* margin: 0 auto; */ transform: translateX(-50%); } 
+ .jeju_img { position:relative; width: 100%; height: 316px; background-size: contain; } 
+ .jeju_img > i { position:absolute; width:50px !important; height:50px !important; font-size: 15px !important; border-radius: 100%; background:#fff; line-height: 50px !important; cursor: pointer; } 
+ .jeju_img > i.jeju_jejusi { top: 20% !important; left: 45%; } 
+ .clickActive { padding: 306px 0 0;} 
+ }
+ 
+
+@media screen and (max-width:1240px) { *::-webkit-scrollbar { display: none; } 
+ .art_main { float: right; width: 100% !important; } 
+ .art_main .art_main_category { padding: 277px 0 10px; overflow: hidden; border-bottom: 1px solid #ccc; } 
+.GW_article1 { position: absolute !important;; top: 175px !important; width: 100%; } 
+.category { padding: 37px 0 0; } 
+.category li { display: flex; height: 100%; padding: 0 0 30px; overflow: hidden; flex-direction: column; } 
+.category li .item_img > div { margin:0 auto; float: none !important;; width: 100%; height: 250px; max-width: 400px; background-size: cover; background-repeat: no-repeat; background-position: center; } 
+.art_left { width:100% !important; background-color: #fff; } 
+.art_left ul { display: flex; justify-content: center; } 
+.art_left ul li { padding: 20px 0; font-size: 15px; border-bottom: 1px solid #ccc; flex: 1; } 
+.art_left ul li span { display: none; } 
+.art_main .art_main_category ul { float: none !important; text-align: center; } 
+ .art_main .art_main_category ul li { display: inline-block; position: relative; padding: 0px 8px; } 
+.text_p_1::after { content: ""; display: none; position: absolute; right: 42px; width: 1px; height: 20px; background-color: #ccc; } 
+.category li .category_text { padding:0 !important; width: 100%; max-width: 400px; margin:0 auto; } 
+.travelproduct { justify-content: center; } 
+.basket_btn { position: static !important; margin: 0 auto !important; display: flex; align-items: center; justify-content: center; } 
+.text_p_right { float: right; text-align: end; transform: translateY(22px) !important; } 
+
+
+.jeju_insert_center { width:100%; margin: 0 auto; } 
+.jeju_img { position:relative; width: 100%; height: 316px; background-size: contain; } 
+.jeju_MAP i { position: absolute; width: 72px; height: 73px; font-size: 20px; border-radius: 100%; background: #fff; line-height: 73px; cursor: pointer; } 
+.jeju_MAP i.jeju_jungmoon { top: 65%; left: 30%; } 
+.jeju_MAP i.jeju_seoguipo { top: 65%; left: 50%; } 
+.jeju_MAP i.jeju_aewoul { top: 26%; left: 30%; } 
+.jeju_MAP i.jeju_jejusi { top: 10%; left: 45%; } 
+.jeju_MAP i.jeju_sungsan { top: 35%; left: 65%; } 
+.jeju_insert ul.insert_link { display: flex; position: static; margin: 0 auto; justify-content: center; } 
+
+.ingi_kewords { display: flex; padding:0; } 
+.section1 { height: 425px; } 
+.jejuSection > div ul { display: flex; width:100%; } 
+.jejuSection > div ul li { flex:1 } 
+.jejuSection > div ul { display: flex; width: 100%; } 
+.jeju_MAP .jejuSection { float:none; width:100% } 
+ .jeju_MAP .Map_left { width: 100%; } 
+ .jeju_MAP { position: static; left: 50%; width: 100%; height: 470px; margin-bottom: 40px; transform: translateX(0); } 
+ }
+
