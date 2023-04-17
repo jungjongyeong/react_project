@@ -3,7 +3,7 @@
 
   "만국여행사"
   
-https://github.com/jungjongyeong/react_project/issues/1#issue-1670645426
+https://user-images.githubusercontent.com/115339701/232424177-7bec7542-148f-41c4-8672-5f3f0be27e05.gif
 
 
 (3) 프로젝트 정보
