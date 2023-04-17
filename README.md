@@ -3,7 +3,7 @@
 
   "만국여행사"
   
-> ![ezgif com-video-to-gif](https://user-images.githubusercontent.com/115339701/232424177-7bec7542-148f-41c4-8672-5f3f0be27e05.gif)
+> > ![ezgif com-video-to-gif (3)](https://user-images.githubusercontent.com/115339701/232436453-456baf03-132e-479b-921c-99bc6af62c3c.gif)
 
 
  [배포 주소]
