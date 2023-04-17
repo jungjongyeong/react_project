@@ -1,11 +1,8 @@
 
 
 
-프로젝트에 대한 정보
-(1) 프로젝트 제목
   "만국여행사"
 
-(2) 프로젝트 로고나 이미지
   ![logo](https://user-images.githubusercontent.com/115339701/232415395-0417c3c4-e2c6-4c78-b938-6ee8ced49f98.png)
 
 
