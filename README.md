@@ -2,8 +2,8 @@
 
 
   "만국여행사"
-
-  ![logo](https://user-images.githubusercontent.com/115339701/232415395-0417c3c4-e2c6-4c78-b938-6ee8ced49f98.png)
+  
+![Uploading ezgif.com-video-to-gif.gif…]()
 
 
 (3) 프로젝트 정보
