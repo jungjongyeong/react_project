@@ -3,7 +3,7 @@
 
   "만국여행사"
   
-![Uploading ezgif.com-video-to-gif.gif…]()
+https://github.com/jungjongyeong/react_project/issues/1#issue-1670645426
 
 
 (3) 프로젝트 정보
