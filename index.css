@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'neon';
-  src: url("fonts/react_font.ttf") format("truetype");
+  src: url("fonts/NotoSansKR-Medium.otf");
   }
 * {
   font-family: "neon";
