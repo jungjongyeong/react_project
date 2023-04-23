@@ -7,7 +7,7 @@
 
 
  [배포 주소]
-  https://willowy-sprinkles-c49a7a.netlify.app/
+  https://whimsical-cucurucho-53c2ec.netlify.app/
 
  [프로젝트 소개]
   - 한국 각 지역을 여행할 수 있는 상품을 유저들은 장바구니에 넣거나, 검색을 할수있다.
