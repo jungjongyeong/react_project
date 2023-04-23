@@ -12,7 +12,7 @@
 .art_main { overflow: hidden; } 
 .art_main .art_main_category { overflow: hidden; border-bottom:1px solid #ccc; padding:0 0 16px; } 
 .art_main .art_main_category ul { float:right; } 
-.art_main .art_main_category ul li { display: inline-block; position:relative; padding:0 20px; cursor: pointer; font-size:20px; } 
+.art_main .art_main_category ul li { display: inline-block; position:relative; padding:0 20px; cursor: pointer; font-size:16px; } 
 .art_main .art_main_category ul li:hover { color:#bbb; } 
 .art_main .art_main_category ul li ~ li::before { content: ""; position:absolute; top:5px; left:0; width:1px; height:10px; background-color: #ccc; } 
 .category { height:60%; min-height:600px; padding:20px 0; border-bottom: 1px solid #ccc } 
@@ -108,16 +108,16 @@
 .category li .category_text .category_span .category_span_L span { display: inline-block; width:70px; height:25px; margin:0 10px 0 0; font-size:11px; border:1px solid #ccc; line-height: 25px; text-align: center } 
 .category_span_left { color: #fff; font-size:13px; background: #000; margin-right: 10px; } 
 .category_span_right { color: #fff; font-size:13px; background:#e67f4c; } 
-.category h2 { padding:20px 0; font-size:25px; } 
+.category h2 { padding:20px 0; font-size:19px; } 
 .text_p { display: flex; } 
-.text_p p { width: 300px; flex: 1; font-size:20px;  } 
+.text_p p { width: 300px; flex: 1; font-size:16px;  } 
 .text_p_1 { position: relative; } 
-.text_p_bottom { padding:20px 0; font-size:21px; } 
+.text_p_bottom { padding:20px 0; font-size:14px; } 
 .bottom_bus { padding:0 0 0 15px; color:darkgrey; } 
 .travelproduct { display: flex; padding: 30px 0 0 20px; flex-direction: column; } 
 .text_p_right { float:right; text-align: end; transform: translateY(-10px); } 
 .travelPrice { font-size:30px; font-weight: bold; } 
-.basket_btn { position: absolute; font-size:20px; right: 8px; bottom: 49px; width: 150px; height: 50px; } 
+.basket_btn { position: absolute; font-size:16px; right: 8px; bottom: 49px; width: 150px; height: 50px; } 
 .basket_btn:hover { background:#ededed; color:#000; } 
 .SectionProduct .basket_btn { position: static; margin:10px 0 0; border-radius: 10px; font-size:16px; } 
 
