@@ -7,9 +7,9 @@
 
 .jeju_insert { width:100%; padding:100px 0 20px; text-align: center; } 
 .jeju_insert_center { width:1300px; margin: 0 auto; } 
-.jeju_insert h2 { padding:0 0 30px; font-size:45px; } 
+.jeju_insert h2 { padding:0 0 30px; font-size:31px; } 
 .jeju_insert ul.insert_link { display: flex; justify-content: center; background: #4567ad; margin: 0px 0 18px; } 
-.jeju_insert ul.insert_link a { display: block;font-size:23px; color:#fff; flex:1; line-height: 50px; cursor: pointer; } 
+.jeju_insert ul.insert_link a { display: block;font-size:18px; color:#fff; flex:1; line-height: 50px; cursor: pointer; } 
 .jeju_insert ul.insert_link a:hover {  color:skyblue; transition:all 0.1s } 
 
 .Jeju_link { margin:20px 0 30px; border-bottom:2px solid #000; } 
